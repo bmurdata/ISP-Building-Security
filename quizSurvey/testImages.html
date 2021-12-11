@@ -1,0 +1,53 @@
+<body>
+  <p>Test Text</p>
+  <button value="99" onclick="hitPoint(this.value)">Push It</button>
+  <div class="Test">
+
+  </div>
+  <script src="hitEndpoint.js"></script>
+</body>
+<script>
+  let authImages=[
+      [-1,1,"images/02-bg1-90.gif","Bag"],
+      [-1,1,"images/03-bg1-90.gif","Bag"],
+      [-1,1,"images/01-bg1-90.gif","Bag"],
+      [-1,1,"images/04-bg1-90.gif","Bag"],
+      [-1,1,"images/05-cl1-90.gif","Coat"],
+
+      [-1,1,"images/06-cl1-90.gif","Coat"],
+      [-1,1,"images/07-nm1-90.gif","Normal"],
+      [-1,1,"images/08-nm1-90.gif","Normal"],
+      [-1,0,"images/09-cl1-90.gif","Coat"],
+      [-1,0,"images/10-nm1-90.gif","Normal"],
+
+      [-1,0,"images/11-bg1-90.gif","Bag"],
+      [-1,0,"images/12-bg1-90.gif","Bag"],
+      [-1,0,"images/13-bg1-90.gif","Bag"],
+      [-1,0,"images/14-bg1-90.gif","Bag"],
+      [-1,0,"images/15-cl1-90.gif","Coat"],
+
+      [-1,0,"images/16-cl1-90.gif","Coat"],
+      [-1,0,"images/17-cl1-90.gif","Coat"],
+      [-1,0,"images/18-cl1-90.gif","Coat"],
+      [-1,0,"images/19-nm1-90.gif","Normal"],
+      [-1,0,"images/20-nm1-90.gif","Normal"],
+
+      [-1,0,"images/21-nm1-90.gif","Normal"],
+      [-1,0,"images/22-nm1-90.gif","Normal"],
+      [-1,0,"images/23-cl1-90.gif","Coat"],
+      [-1,0,"images/24-nm1-90.gif","Normal"],
+
+      [-1,0,"images/25-bg1-90.gif","Bag"],
+      [-1,0,"images/25-cl1-90.gif","Coat"],
+      [-1,1,"images/25-nm1-90.gif","Normal"]
+      ];
+      let tester=document.getElementsByClassName("Test")[0];
+      for(let i=0;i<27;i++){
+        
+        let img=document.createElement("img");
+
+        img.src=authImages[i][2];
+        tester.appendChild(img);
+        console.log(i);
+      }
+</script>
