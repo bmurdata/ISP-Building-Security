@@ -20,13 +20,13 @@ Thank you to the professors for being great instructors.
 *   Brandon Sloane
 *   Paola Garcia-Caberas 
 
-Thak you also to the below TA's:
+Thak you also to the below TA's:  
 *  
 *  
-the OpenGait team for their work, it helped me tremendously for my paper. One day, I hope to run it myself!
+
+The OpenGait team for their work, it helped me tremendously for my paper. One day, I hope to run it myself!
 https://github.com/ShiqiYu/OpenGait
 Open Gait Team (OGT)
-
-Chao Fan (樊超), 12131100@mail.sustech.edu.cn
-Chuanfu Shen (沈川福), 11950016@mail.sustech.edu.cn
-Junhao Liang (梁峻豪), 12132342@mail.sustech.edu.cn
+*  Chao Fan (樊超), 12131100@mail.sustech.edu.cn
+*  Chuanfu Shen (沈川福), 11950016@mail.sustech.edu.cn
+*  Junhao Liang (梁峻豪), 12132342@mail.sustech.edu.cn
