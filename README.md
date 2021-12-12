@@ -1,5 +1,9 @@
 # ISP-Building-Security
 Code and files for my presentation on Building Security using Biometric Authentication
+## Slides and Paper
+Paper: https://drive.google.com/file/d/1l4snA3AZ4EwPRFBhPnPPtM4XjKat9b3Q/view?usp=sharing  
+Slides: https://docs.google.com/presentation/d/1psDOE3S1-BtF_uaGYSCe4L5OzNLAhSPrtmzlWvOjusc/edit?usp=sharing  
+YouTube presentation: 
 # About
 This repo holds code, data, and resources related to my presentation on Building Security with Biometrics. My hypothesis was that a machine learning gait analysis model could do better than humans for ensuring building condfidentiality. 
 
@@ -11,9 +15,7 @@ I was able to run 20 successful trials. Overall, I found that humans could guess
 
 Full results, and a more detailed description, can be found in the slides and PDF in this repo. The data can be found in the backend surveyapi.
 
-## Slides and Paper
-Paper: https://drive.google.com/file/d/1l4snA3AZ4EwPRFBhPnPPtM4XjKat9b3Q/view?usp=sharing
-Slides: https://docs.google.com/presentation/d/1psDOE3S1-BtF_uaGYSCe4L5OzNLAhSPrtmzlWvOjusc/edit?usp=sharing
+
 ## Code
 ### Frontend:
 HTML,CSS, JS. Fetch API used to communicate with backend.  
