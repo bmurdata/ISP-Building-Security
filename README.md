@@ -19,11 +19,11 @@ Full results, and a more detailed description, can be found in the slides and PD
 ## Code
 ### Frontend:
 HTML,CSS, JS. Fetch API used to communicate with backend.  
-Link:https://quizSurvey.brianmurphy11.repl.co
+Link:https://quizSurvey.brianmurphy11.repl.co  
 Replit: https://replit.com/@BrianMurphy11/quizSurvey#index.html
 ### Backend:
-Python Flask API to 
-Play Link: https://surveyAPI.brianmurphy11.repl.co
+Python Flask API for data collection  
+Play Link: https://surveyAPI.brianmurphy11.repl.co  
 Replit: https://replit.com/@BrianMurphy11/surveyAPI#main.py
 
 # Acknowledgements
