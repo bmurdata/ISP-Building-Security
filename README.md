@@ -39,7 +39,7 @@ ISP TAs:
 * Steven Angulo
 * Julio Nunez
 
-Institute of Automation, Chinese Academy of Science, for their CASIA datasets!
+Institute of Automation, Chinese Academy of Science, for their CASIA datasets! Link: http://www.cbsr.ia.ac.cn/english/Gait%20Databases.asp
 
 The OpenGait team for their work, it helped me tremendously for my paper. One day, I hope to run it myself!
 https://github.com/ShiqiYu/OpenGait
