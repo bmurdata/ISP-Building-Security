@@ -3,15 +3,17 @@ Code and files for my presentation on Building Security using Biometric Authenti
 # About
 This repo holds code, data, and resources related to my presentation on Building Security with Biometrics. My hypothesis was that a machine learning gait analysis model could do better than humans for ensuring building condfidentiality. 
 
-I ran an experiment using a subset of the CASIA-B dataset, where I created GIFs of 25 of their 125 subjects. For the first 24, I used 8 each of a subject walking normally, walking with a bag, and walking with a coat. For the last, I used samples of all three types. This gave me a total of 27 gifs. 
+27 gifs using a subset of this dataset were prepared using the first 25 subjects. 8 of each type were made into gifs, while the 25th had all three types used. Regardless of pose, I used the 90 degree angle for all results. I used an online site Imgflip to convert the stills into gifs.
 
-I showed random samples of them to subjects via a HTML/JS frontend, with a Python Flask API backend for data collection. Subjects were shown 6 or 9 gifs, asked to remember them, then asked to identify 10 randomly selected gifs as previously seen(authorized) or not(unauthorized).
+Using a pure HTML/JS frontend, 6 or 9 were randomly shown to human subjects as authorized users. Once subjects felt confident in identification, 10 gifs were randomly selected, including ones not shown to them, and subjects asked to identify which are authorized and which are not. Results were displayed to subjects, then sent to a Python Flask API backend via the JavaScript fetch api. Both systems were implemented on Replit.
 
 I was able to run 20 successful trials. Overall, I found that humans could guess right about 45% of the time, and got wrong about 55%. This, compared to previous work using machine learning models averaging 70-95% accuracy, meant my hypothesis was correct. However, there were some issues.
 
 Full results, and a more detailed description, can be found in the slides and PDF in this repo. The data can be found in the backend surveyapi.
 
-
+## Slides and Paper
+Paper: https://drive.google.com/file/d/1l4snA3AZ4EwPRFBhPnPPtM4XjKat9b3Q/view?usp=sharing
+Slides: https://docs.google.com/presentation/d/1psDOE3S1-BtF_uaGYSCe4L5OzNLAhSPrtmzlWvOjusc/edit?usp=sharing
 ## Code
 ### Frontend:
 HTML,CSS, JS. Fetch API used to communicate with backend.  
